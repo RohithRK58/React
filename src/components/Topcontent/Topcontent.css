@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.topcontent{
+    color: black;
+}
+.topcontent__container{
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    transform: translateX(-50%);
+    text-align: left; 
+
+}
+.topcontent__container P{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding-top:20px ;
+}
+.topcontent__container a button{
+    background-color:red;
+    
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    padding: 10px;
+   margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+};
+
+.topcontent__container_name{
+    font-family: 'Montserrat', sans-serif;
+
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.topcontent__container a button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Crimson Text', serif;
+}
+
+#name{
+font-family: 'Montserrat', sans-serif;
+font-size: 40px;
+letter-spacing: 2px;
+font-weight: 700;
+
+}
