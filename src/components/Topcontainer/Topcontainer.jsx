@@ -8,7 +8,6 @@ const Topcontainer = () => {
   return (
     <Element name= 'About' className='topcontainer'>
         <Topcontent />
-
     </Element>
   );
 }
